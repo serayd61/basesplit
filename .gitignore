@@ -51,3 +51,4 @@ next-env.d.ts
 # Hardhat
 cache_hardhat/
 
+.vercel
