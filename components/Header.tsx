@@ -33,19 +33,19 @@ export function Header() {
 
         <nav className="hidden md:flex items-center gap-8">
           <Link 
-            href="#features" 
+            href="/create" 
             className="text-base-muted hover:text-white transition-colors"
           >
-            Features
+            Create Split
           </Link>
           <Link 
-            href="#docs" 
+            href="/dashboard" 
             className="text-base-muted hover:text-white transition-colors"
           >
-            Docs
+            Dashboard
           </Link>
           <a 
-            href="https://github.com" 
+            href="https://github.com/serayd61/basesplit" 
             target="_blank"
             rel="noopener noreferrer"
             className="text-base-muted hover:text-white transition-colors"
@@ -63,4 +63,5 @@ export function Header() {
     </motion.header>
   )
 }
+
 

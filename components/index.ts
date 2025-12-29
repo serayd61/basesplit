@@ -6,3 +6,4 @@ export { SplitCard } from './SplitCard'
 export { CreateSplitModal } from './CreateSplitModal'
 export { Footer } from './Footer'
 
+

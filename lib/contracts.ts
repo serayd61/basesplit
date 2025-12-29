@@ -1,9 +1,9 @@
 import { Abi } from 'viem'
 
-// Update these addresses after deployment
+// Base Mainnet Contract Addresses
 export const CONTRACTS = {
-  baseSplit: process.env.NEXT_PUBLIC_BASESPLIT_ADDRESS || '0x...',
-  factory: process.env.NEXT_PUBLIC_FACTORY_ADDRESS || '0x...',
+  baseSplit: process.env.NEXT_PUBLIC_BASESPLIT_ADDRESS || '0x73e583B16F90190E1A69f8f4772a14BAadDdC96A',
+  factory: process.env.NEXT_PUBLIC_FACTORY_ADDRESS || '0xF7DB9dbC56edBD1b2bB67E5eC00f03397EA6299f',
 } as const
 
 export const BASESPLIT_ABI = [
@@ -195,4 +195,5 @@ export const FACTORY_ABI = [
     type: 'event',
   },
 ] as const satisfies Abi
+
 
