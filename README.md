@@ -10,8 +10,9 @@
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.20-363636?style=for-the-badge&logo=solidity)](https://soliditylang.org)
 [![Next.js](https://img.shields.io/badge/Next.js-14-000000?style=for-the-badge&logo=next.js)](https://nextjs.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://ethproject.vercel.app)
 
-[Demo](https://basesplit.xyz) • [Documentation](#documentation) • [Contributing](#contributing)
+[🌐 Live Demo](https://ethproject.vercel.app) • [📜 Contracts](#-smart-contracts) • [🚀 Getting Started](#-quick-start)
 
 </div>
 
@@ -29,6 +30,15 @@ BaseSplit is a decentralized revenue sharing protocol built on Base L2. Create N
 - **⚡ Low Gas on Base** - Minimal transaction costs leveraging Base L2
 - **👥 Unlimited Holders** - Add up to 100 recipients per split
 - **📊 Real-time Analytics** - Track distributions and historical payouts
+
+---
+
+## 🔗 Deployed Contracts (Base Mainnet)
+
+| Contract | Address | Basescan |
+|----------|---------|----------|
+| **BaseSplit** | `0x73e583B16F90190E1A69f8f4772a14BAadDdC96A` | [View](https://basescan.org/address/0x73e583B16F90190E1A69f8f4772a14BAadDdC96A) |
+| **Factory** | `0xF7DB9dbC56edBD1b2bB67E5eC00f03397EA6299f` | [View](https://basescan.org/address/0xF7DB9dbC56edBD1b2bB67E5eC00f03397EA6299f) |
 
 ---
 
