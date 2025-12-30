@@ -5,11 +5,36 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'BaseSplit - Revenue Sharing Protocol on Base',
   description: 'Split fees and rewards with collaborators on Base blockchain. Create NFT-based revenue splits instantly.',
-  keywords: ['Base', 'Ethereum', 'DeFi', 'Revenue Sharing', 'NFT', 'Web3', 'Splits'],
+  keywords: ['Base', 'Ethereum', 'DeFi', 'Revenue Sharing', 'NFT', 'Web3', 'Splits', 'Crypto', 'Smart Contracts'],
+  authors: [{ name: 'serayd61', url: 'https://github.com/serayd61' }],
+  creator: 'serayd61',
+  metadataBase: new URL('https://ethproject.vercel.app'),
   openGraph: {
+    title: 'BaseSplit - Revenue Sharing Protocol on Base',
+    description: 'The simplest way to split revenue on-chain. Create NFT-based splits, distribute earnings automatically.',
+    url: 'https://ethproject.vercel.app',
+    siteName: 'BaseSplit',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'BaseSplit - Revenue Sharing on Base',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
     title: 'BaseSplit - Revenue Sharing Protocol',
-    description: 'Split fees and rewards with collaborators on Base',
+    description: 'Split fees and rewards with collaborators on Base blockchain',
+    creator: '@serayd61',
     images: ['/og-image.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 }
 
